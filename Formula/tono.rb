@@ -33,6 +33,7 @@ class Tono < Formula
   def install
     bin.install "tono"
     bin.install "tono-frontend"
+    bin.install "tono-lsp"
   end
 
   test do
