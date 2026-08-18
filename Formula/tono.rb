@@ -1,28 +1,28 @@
 class Tono < Formula
   desc "Tono language compiler: generate idiomatic SDKs from a single source"
   homepage "https://github.com/tono-lang/tono"
-  version "0.0.8"
+  version "0.0.9"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/tono-lang/tono/releases/download/v0.0.8/tono-0.0.8-aarch64-apple-darwin.tar.gz"
-      sha256 "94860e77763cae20938ed3f3f91d876b346054f39408b30019483385739822d7"
+      url "https://github.com/tono-lang/tono/releases/download/v0.0.9/tono-0.0.9-aarch64-apple-darwin.tar.gz"
+      sha256 "063c28c21617fb638fe1315b00af3fc1ed6da7c9a1fb387798eb343ba4683305"
     end
     on_intel do
-      url "https://github.com/tono-lang/tono/releases/download/v0.0.8/tono-0.0.8-x86_64-apple-darwin.tar.gz"
-      sha256 "95b75ac13798f1cd02a914572cf232ddd3fac0747fb83c9e9964447ec73b42cc"
+      url "https://github.com/tono-lang/tono/releases/download/v0.0.9/tono-0.0.9-x86_64-apple-darwin.tar.gz"
+      sha256 "8f6e79aa62fd218a566e76d6b79c61036faaf8bafec5cadbc9e43c91434492c3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tono-lang/tono/releases/download/v0.0.8/tono-0.0.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "22385b19eda5da6bc0a8f134845e1042fe7dc7578962eed237c1a0f426e752df"
+      url "https://github.com/tono-lang/tono/releases/download/v0.0.9/tono-0.0.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5cb50114159af013f1ae95b8eba21ec8f1178973139dd81e2e72fccc6316bd57"
     end
     on_intel do
-      url "https://github.com/tono-lang/tono/releases/download/v0.0.8/tono-0.0.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c82123a602de684a93131e976c4027e1c2b98e101fee9b33de404d968ee93c22"
+      url "https://github.com/tono-lang/tono/releases/download/v0.0.9/tono-0.0.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a5eca2f60bab3ec0ec8fdf3976fe790fb243ee063673c366730bff175ed457fa"
     end
   end
 
